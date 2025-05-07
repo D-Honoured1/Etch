@@ -1,9 +1,11 @@
+/* Prevents margin and padding from interferring */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body design */
 body {
     min-height: 100vh;
     height: 100vh;
@@ -15,6 +17,7 @@ body {
     gap: 2%;
 }
 
+/* Header design */
 header {
     display: flex;
     justify-content: center;
@@ -25,6 +28,7 @@ header {
     border: 4px solid white;
 }
 
+/* Button container design */
 .button-container{
     display: flex;
     flex-direction: center;
@@ -32,6 +36,7 @@ header {
     gap: 5%;
 }
 
+/* Button configuration */
 #clear, #reset{
     border: 2px solid black;
     padding: 0.5rem 0.5rem;
@@ -39,18 +44,35 @@ header {
     background: white;
 }
 
+/* Hover effects on button */
 #clear:hover, #reset:hover{
     color: violet;
 }
 
+/* Simple H1 color */
 h1 {
     color: black;
 }
 
+/* Style for the color picker */
+#colorPicker {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Grid cell */
+.grid-cell {
+    background-color: white;
+}
+
+/* Grid dimension color */
 .grid-dimensions {
     color: white;
 }
 
+/* grid container configurations */
 .grid-container {
     display: grid;
     height: 70%;
