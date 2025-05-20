@@ -24,7 +24,7 @@ function createGrid(size) {
     for (let i = 0; i < size * size; i++) {
         const cell = document.createElement('div');
         cell.classList.add('grid-cell');
-        cell.style.border = '1px solid #ccc';
+        cell.style.border = '1px solid #ccc'; // optional for visibility
         cell.style.backgroundColor = 'white';
         cell.addEventListener('mouseover', () => {
             cell.style.backgroundColor = selectedColor;
